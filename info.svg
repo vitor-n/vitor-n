@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+
+<style>
+    @font-face {
+        src: local('Consolas'), local('Consolas Bold');
+        font-family: 'ConsolasFallback';
+        font-display: swap;
+        -webkit-size-adjust: 109%;
+        size-adjust: 109%;
+    }
+    .key {
+        fill: #ffa657;
+        font-weight: bold;
+    }
+    .value {fill: #a5d6ff;}
+    .addColor {fill: #3fb950;}
+    .delColor {fill: #f85149;}
+    .cc {
+        fill: #616e7f;
+    }
+    text, tspan {white-space: pre;}
+</style>
+
+<rect width="985px" height="530px" fill="#161b22" rx="30"/>
+
+
+<text x="390" y="30" fill="#c9d1d9">
+<tspan x="390" y="30">vitor@nascimento</tspan>
+<tspan x="390" y="50">----------------</tspan>
+
+<tspan x="390" y="070" class="cc">.</tspan>
+<tspan class="key">OS</tspan>:
+<tspan class="cc">..............................</tspan>
+<tspan class="value">Arch Linux, Android</tspan>
+
+<tspan x="390" y="090" class="cc">.</tspan>
+<tspan class="key">Uptime</tspan>:
+<tspan class="cc" id="age_data_dots">.....................................</tspan>
+<tspan class="value" id="age_data">21 years</tspan>
+
+<tspan x="390" y="130" class="cc">.</tspan>
+<tspan class="key">Programming</tspan>:
+<tspan class="cc" id="age_data_dots">.......</tspan>
+<tspan class="value" id="age_data">Python, C++, JavaScript, R</tspan>
+
+<tspan x="390" y="170" class="cc">.</tspan>
+<tspan class="key">Languages</tspan>:
+<tspan class="cc" id="age_data_dots">.......</tspan>
+<tspan class="value" id="age_data">English, Portuguese</tspan>
+
+<tspan x="390" y="210" class="cc">.</tspan>
+<tspan class="key">Hobbies</tspan>:
+<tspan class="cc" id="age_data_dots">.......</tspan>
+<tspan class="value" id="age_data">Astrophotography, Guitar, Drawing</tspan>
+
+<tspan x="390" y="250" class="cc">.</tspan>
+<tspan class="key">Email</tspan>:
+<!-- <tspan class="cc" id="age_data_dots">.......</tspan> -->
+<tspan class="value" id="age_data">vitor.nascimento@proton.me</tspan>
+
+<tspan x="390" y="270" class="cc">.</tspan>
+<tspan class="key">LinkedIn</tspan>:
+<tspan class="cc" id="age_data_dots">.......</tspan>
+<tspan class="value" id="age_data">vitor-n</tspan>
+
+
+
+</text>
+  <a href="/docs/Web/SVG/Reference/Element/circle">
+    <circle cx="50" cy="40" r="35" />
+  </a>
+</svg>
