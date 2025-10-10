@@ -1,2 +1,3 @@
 drawsvg
+python-dateutil
 PyYAML
