@@ -1,4 +1,4 @@
-name: Updates README data
+name: Update README data
 
 on:
   workflow_dispatch:
@@ -27,6 +27,9 @@ jobs:
 
       - name: Run script
         run: python main.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
 
       - name: Commit and Push
         run: |
