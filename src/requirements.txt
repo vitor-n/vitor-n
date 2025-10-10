@@ -1,3 +1,5 @@
 drawsvg
 python-dateutil
+python-dotenv
 PyYAML
+requests
