@@ -72,6 +72,6 @@
 <text x="405" y="430" font-size="16"><tspan class="key"> LinkedIn:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">vitor-do-nascimento</tspan></text>
 <text x="405" y="470" font-size="16"><tspan class="title">Github Statistics</tspan></text>
 <text x="405" y="490" font-size="16"><tspan class="key"> Repos:</tspan><tspan class="dots"> ................................................ </tspan><tspan class="value">16</tspan></text>
-<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">597</tspan></text>
+<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">604</tspan></text>
 <text x="15" y="550" font-size="16"><tspan class="green">vitor</tspan><tspan>@</tspan><tspan>nascimento</tspan><tspan class="green"> ~</tspan><tspan>&gt;</tspan><tspan id="cursor"> █</tspan></text>
 </svg>
