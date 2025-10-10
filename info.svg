@@ -1,181 +1,77 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="570px" font-size="16px">
-
-<style>
-    @font-face {
-        src: local('Consolas'), local('Consolas Bold');
-        font-family: 'ConsolasFallback';
-        font-display: swap;
-        -webkit-size-adjust: 109%;
-        size-adjust: 109%;
-    }
-    .key {
-        fill: #70c0b1;
-        font-weight: bold;
-    }
-    .value {
-        fill: #a1a1a1;
-        text-anchor: end;
-    }
-    .title {
-        fill: #fe8019;
-        font-weight: bold;
-    }
-    .addColor {
-        fill: #b8bb26;
-        text-anchor: end;
-        font-weight: bold;
-    }
-    .delColor {
-        fill: #fb4934;
-        text-anchor: end;
-        font-weight: bold;
-    }
-    .cc {
-        fill: #616e7f;
-    }
-    text, tspan {
-        white-space: pre;
-    }
-
-    @keyframes blink {
-        50% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-
-    #cursor {
-        animation: blink 1s step-end infinite;
-        opacity: 1;
-    }
-</style>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="985" height="570" viewBox="0 0 985 570" font-family="ConsolasFallback, Consolas, monospace" font-size="16px">
 <defs>
-    <filter x="0" y="0" width="1" height="1" id="solid">
-        <feFlood flood-color="#1c1c1c" result="bg" />
-        <feMerge>
-            <feMergeNode in="bg" />
-            <feMergeNode in="SourceGraphic" />
-        </feMerge>
-    </filter>
 </defs>
 
-<rect width="985px" height="570px" fill="#1c1c1c" rx="30" />
-
-<text x="15" y="30" fill="#928374" class="ascii">
-    <tspan x="15" y="030">                                     </tspan>
-    <tspan x="15" y="050">                 .*##%%%###          </tspan>
-    <tspan x="15" y="070">              #%%%@%%@%%%%%%%%       </tspan>
-    <tspan x="15" y="090">            %#%%%*+++#%*=+=#%@%@#    </tspan>
-    <tspan x="15" y="110">          %%#*=-:::::--------+#%@%   </tspan>
-    <tspan x="15" y="130">        =%%+-:::-:::-------====+#%*  </tspan>
-    <tspan x="15" y="150">       *%#*+::::::::--------=====#%  </tspan>
-    <tspan x="15" y="170">       %%#*=-:::::-------========#%* </tspan>
-    <tspan x="15" y="190">       @%%+--+#%%@%#=--=+#%%%*+==*%# </tspan>
-    <tspan x="15" y="210">       @%*-==+==**##*:-+#%%*+****+%* </tspan>
-    <tspan x="15" y="230">       -%=--==+****=-:-+*#**#%%#*=#  </tspan>
-    <tspan x="15" y="250">     =----:::--=--::::-====++=====#- </tspan>
-    <tspan x="15" y="270">     :::*-:::::-=+:::::-==+=-----==+ </tspan>
-    <tspan x="15" y="290">      :=------=++==#==+*#*++======+. </tspan>
-    <tspan x="15" y="310">      -:----++#**==***###****++==+=. </tspan>
-    <tspan x="15" y="330">       -+=====##@#++++****@#+=+++==  </tspan>
-    <tspan x="15" y="350">         #***=+=-----===++=+=+*+.    </tspan>
-    <tspan x="15" y="370">          **+=--::-+++=+====+++      </tspan>
-    <tspan x="15" y="390">          :=*=+-:::::--====+*+       </tspan>
-    <tspan x="15" y="410">         ::--#%*-=------=+*#+        </tspan>
-    <tspan x="15" y="430">         =::--=%%%%*#*####%==        </tspan>
-    <tspan x="15" y="450">       *.-::---==+%%%%%#*===+        </tspan>
-    <tspan x="15" y="470">     *..:::----=====+**++===+#:.     </tspan>
-    <tspan x="15" y="490"> :%#:..:+:------======++=====#-%%%%#*</tspan>
-</text>
-
-
-
-<text x="405" y="30" fill="#c9d1d9">
-    <tspan x="405" y="30" class="key">vitor</tspan>@<tspan class="key">nascimento</tspan>
-    <tspan x="405" y="50">----------------</tspan>
-</text>
-
-<text y="090" fill="#c9d1d9">
-    <tspan x="405" class="title">General Info</tspan> ┄───────────────────────────────────────────┄
-</text>
-<text y="110" fill="#c9d1d9">
-    <tspan x="415" class="key">OS</tspan>: <tspan>.................................</tspan><tspan x="970" class="value">Arch Linux, Android</tspan>
-</text>
-
-<text y="130" fill="#c9d1d9">
-    <tspan x="415" class="key">Uptime</tspan>: <tspan>..............................</tspan><tspan x="970" class="value">21 years, 2 months</tspan>
-</text>
-
-<text y="150" fill="#c9d1d9">
-    <tspan x="415" class="key">Local</tspan>: <tspan>...........................</tspan><tspan x="970" class="value">Rio de Janeiro, Brazil</tspan>
-</text>
-
-<text y="170" fill="#c9d1d9">
-    <tspan x="415" class="key">IDE</tspan>: <tspan>.......................................</tspan><tspan x="970" class="value">NVIM v0.11.4</tspan>
-</text>
-
-<text y="210" fill="#c9d1d9">
-    <tspan x="405" class="title">Knowledge</tspan> ┄──────────────────────────────────────────────┄
-</text>
-<text y="230" fill="#c9d1d9">
-    <tspan x="415" class="key">Programming</tspan>: <tspan>.................</tspan><tspan x="970" class="value">Python, C++, Javascript, R</tspan>
-</text>
-<text y="250" fill="#c9d1d9">
-    <tspan x="415" class="key">Interests</tspan>: <tspan>.........</tspan><tspan x="970" class="value">Machine Learning, Data Visualization</tspan>
-</text>
-<text y="270" fill="#c9d1d9">
-    <tspan x="415" class="key">Frameworks</tspan>: <tspan>...............</tspan><tspan x="970" class="value">Pytorch, Spark, SVelte, D3.js</tspan>
-</text>
-<text y="290" fill="#c9d1d9">
-    <tspan x="415" class="key">Languages</tspan>: <tspan>..........................</tspan><tspan x="970" class="value">English, Portuguese</tspan>
-</text>
-
-<text y="330" fill="#c9d1d9">
-    <tspan x="405" class="key">Hobbies</tspan>: <tspan>...............</tspan><tspan x="970" class="value">Astrophotography, Guitar, Drawing</tspan>
-</text>
-
-<text y="370" fill="#c9d1d9">
-    <tspan x="405" class="title">Contact</tspan> ┄────────────────────────────────────────────────┄
-</text>
-<text y="390" fill="#c9d1d9">
-    <tspan x="415" class="key">Email</tspan>: <tspan>.......................</tspan><tspan x="970" class="value">vitor.nascimento@proton.me</tspan>
-</text>
-
-<text y="410" fill="#c9d1d9">
-    <tspan x="415" class="key">LinkedIn</tspan>: <tspan>...........................</tspan><tspan x="970" class="value">vitor-do-nascimento</tspan>
-</text>
-
-
-<!-- <text y="450" fill="#c9d1d9">
-    <tspan x="405" class="title">Github Statistics</tspan> ┄──────────────────────────────────────┄
-</text> -->
-
-<!-- <text y="470" fill="#c9d1d9">
-    <tspan x="415" class="key">Repos</tspan>: <tspan>..........</tspan><tspan x="770" class="value">30 {contributed: 2}</tspan> |
-</text> -->
-
-<!-- <text y="490" fill="#c9d1d9">
-    <tspan x="415" class="key">Commits</tspan>: <tspan>..........</tspan><tspan x="770" class="value">30</tspan> |
-</text> -->
-
-<!-- <text y="470" fill="#c9d1d9">
-    <tspan x="770" class="key">Stars</tspan>: <tspan>..........</tspan><tspan x="970" class="value">30</tspan>
-</text> -->
-
-<!-- <text y="490" fill="#c9d1d9">
-    <tspan x="770" class="key">Followers</tspan>: <tspan>......</tspan><tspan x="970" class="value">30</tspan>
-</text> -->
-
-<!-- <text y="510" fill="#c9d1d9">
-    <tspan x="415" class="key">Lines of code</tspan>: <tspan>.................................</tspan>
-</text> -->
-
-<text fill="#c9d1d9">
-    <tspan x="15" y="550" fill="#b8bb26">vitor</tspan>@nascimento <tspan fill="#b8bb26">~</tspan>><tspan id="cursor"> █</tspan>
-</text>
-
+    <style>
+        @font-face {
+            src: local("Consolas"), local("Consolas Bold");
+            font-family: "ConsolasFallback";
+            font-display: swap;
+            -webkit-size-adjust: 109%;
+            size-adjust: 109%;
+        }
+        .key { fill: #70c0b1; font-weight: bold; }
+        .value { fill: #a1a1a1; }
+        .title { fill: #fe8019; font-weight: bold; }
+        .prompt-user { fill: #b8bb26; }
+        .dots { fill: #928374 }
+        .ascii { fill: #928374 }
+        .green { fill: #b8bb26 }
+        text, tspan { white-space: pre; fill: #c9d1d9; font-size: 16 }
+        @keyframes blink {
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        #cursor {
+            animation: blink 1s step-end infinite;
+        }
+    </style>
+    
+<rect x="0" y="0" width="100%" height="100%" rx="25" fill="#1c1c1c" />
+<text x="25" y="70" font-size="16" class="ascii">                .*##%%%###          </text>
+<text x="25" y="90" font-size="16" class="ascii">             #%%%@%%@%%%%%%%%       </text>
+<text x="25" y="110" font-size="16" class="ascii">           %#%%%*+++#%*=+=#%@%@#    </text>
+<text x="25" y="130" font-size="16" class="ascii">         %%#*=-:::::--------+#%@%   </text>
+<text x="25" y="150" font-size="16" class="ascii">       =%%+-:::-:::-------====+#%*  </text>
+<text x="25" y="170" font-size="16" class="ascii">      *%#*+::::::::--------=====#%  </text>
+<text x="25" y="190" font-size="16" class="ascii">      %%#*=-:::::-------========#%* </text>
+<text x="25" y="210" font-size="16" class="ascii">      @%%+--+#%%@%#=--=+#%%%*+==*%# </text>
+<text x="25" y="230" font-size="16" class="ascii">      @%*-==+==**##*:-+#%%*+****+%* </text>
+<text x="25" y="250" font-size="16" class="ascii">      -%=--==+****=-:-+*#**#%%#*=#  </text>
+<text x="25" y="270" font-size="16" class="ascii">    =----:::--=--::::-====++=====#- </text>
+<text x="25" y="290" font-size="16" class="ascii">    :::*-:::::-=+:::::-==+=-----==+ </text>
+<text x="25" y="310" font-size="16" class="ascii">     :=------=++==#==+*#*++======+. </text>
+<text x="25" y="330" font-size="16" class="ascii">     -:----++#**==***###****++==+=. </text>
+<text x="25" y="350" font-size="16" class="ascii">      -+=====##@#++++****@#+=+++==  </text>
+<text x="25" y="370" font-size="16" class="ascii">        #***=+=-----===++=+=+*+.    </text>
+<text x="25" y="390" font-size="16" class="ascii">         **+=--::-+++=+====+++      </text>
+<text x="25" y="410" font-size="16" class="ascii">         :=*=+-:::::--====+*+       </text>
+<text x="25" y="430" font-size="16" class="ascii">        ::--#%*-=------=+*#+        </text>
+<text x="25" y="450" font-size="16" class="ascii">        =::--=%%%%*#*####%==        </text>
+<text x="25" y="470" font-size="16" class="ascii">      *.-::---==+%%%%%#*===+        </text>
+<text x="25" y="490" font-size="16" class="ascii">    *..:::----=====+**++===+#:.     </text>
+<text x="25" y="510" font-size="16" class="ascii">:%#:..:+:------======++=====#-%%%%#*</text>
+<text x="405" y="30" font-size="16"><tspan class="key">vitor</tspan><tspan>@</tspan><tspan class="key">nascimento</tspan></text>
+<text x="405" y="50" font-size="16">----------------</text>
+<text x="405" y="90" font-size="16"><tspan class="title">General Info</tspan></text>
+<text x="405" y="110" font-size="16"><tspan class="key"> OS:</tspan><tspan class="dots"> .................................. </tspan><tspan class="value">Arch Linux, Android</tspan></text>
+<text x="405" y="130" font-size="16"><tspan class="key"> Uptime:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">21 years, 1 month, 26 days</tspan></text>
+<text x="405" y="150" font-size="16"><tspan class="key"> Local:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">Rio de Janeiro, Brazil</tspan></text>
+<text x="405" y="170" font-size="16"><tspan class="key"> IDE:</tspan><tspan class="dots"> ........................................ </tspan><tspan class="value">NVIM v0.11.4</tspan></text>
+<text x="405" y="210" font-size="16"><tspan class="title">Knowledge</tspan></text>
+<text x="405" y="230" font-size="16"><tspan class="key"> Programming:</tspan><tspan class="dots"> .................. </tspan><tspan class="value">Python, C++, Javascript, R</tspan></text>
+<text x="405" y="250" font-size="16"><tspan class="key"> Interests:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">Machine Learning, Data Visualization</tspan></text>
+<text x="405" y="270" font-size="16"><tspan class="key"> Frameworks:</tspan><tspan class="dots"> ................ </tspan><tspan class="value">Pytorch, Spark, Svelte, D3.js</tspan></text>
+<text x="405" y="290" font-size="16"><tspan class="key"> Languages:</tspan><tspan class="dots"> ........................... </tspan><tspan class="value">English, Portuguese</tspan></text>
+<text x="405" y="330" font-size="16"><tspan class="title">Hobbies</tspan></text>
+<text x="405" y="350" font-size="16"><tspan class="key"> Hobbies:</tspan><tspan class="dots"> ............... </tspan><tspan class="value">Astrophotography, Guitar, Drawing</tspan></text>
+<text x="405" y="390" font-size="16"><tspan class="title">Contact</tspan></text>
+<text x="405" y="410" font-size="16"><tspan class="key"> Email.Personal:</tspan><tspan class="dots"> ............... </tspan><tspan class="value">vitor.nascimento@proton.me</tspan></text>
+<text x="405" y="430" font-size="16"><tspan class="key"> LinkedIn:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">vitor-do-nascimento</tspan></text>
+<text x="405" y="470" font-size="16"><tspan class="title">Github Statistics</tspan></text>
+<text x="405" y="490" font-size="16"><tspan class="key"> Repos:</tspan><tspan class="dots"> ................................................ </tspan><tspan class="value">16</tspan></text>
+<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">597</tspan></text>
+<text x="15" y="550" font-size="16"><tspan class="green">vitor</tspan><tspan>@</tspan><tspan>nascimento</tspan><tspan class="green"> ~</tspan><tspan>&gt;</tspan><tspan id="cursor"> █</tspan></text>
 </svg>
