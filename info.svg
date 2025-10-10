@@ -103,92 +103,76 @@
     <tspan x="405" class="title">General Info</tspan> ┄───────────────────────────────────────────┄
 </text>
 <text y="110" fill="#c9d1d9">
-    <tspan x="415" class="key">OS</tspan>: <tspan>.................................</tspan>
-    <tspan x="970" class="value">Arch Linux, Android</tspan>
+    <tspan x="415" class="key">OS</tspan>: <tspan>.................................</tspan><tspan x="970" class="value">Arch Linux, Android</tspan>
 </text>
 
 <text y="130" fill="#c9d1d9">
-    <tspan x="415" class="key">Uptime</tspan>: <tspan>..............................</tspan>
-    <tspan x="970" class="value">21 years, 2 months</tspan>
+    <tspan x="415" class="key">Uptime</tspan>: <tspan>..............................</tspan><tspan x="970" class="value">21 years, 2 months</tspan>
 </text>
 
 <text y="150" fill="#c9d1d9">
-    <tspan x="415" class="key">Local</tspan>: <tspan>...........................</tspan>
-    <tspan x="970" class="value">Rio de Janeiro, Brazil</tspan>
+    <tspan x="415" class="key">Local</tspan>: <tspan>...........................</tspan><tspan x="970" class="value">Rio de Janeiro, Brazil</tspan>
 </text>
 
 <text y="170" fill="#c9d1d9">
-    <tspan x="415" class="key">IDE</tspan>: <tspan>.......................................</tspan>
-    <tspan x="970" class="value">NVIM v0.11.4</tspan>
+    <tspan x="415" class="key">IDE</tspan>: <tspan>.......................................</tspan><tspan x="970" class="value">NVIM v0.11.4</tspan>
 </text>
 
 <text y="210" fill="#c9d1d9">
     <tspan x="405" class="title">Knowledge</tspan> ┄──────────────────────────────────────────────┄
 </text>
 <text y="230" fill="#c9d1d9">
-    <tspan x="415" class="key">Programming</tspan>: <tspan>.................</tspan>
-    <tspan x="970" class="value">Python, C++, Javascript, R</tspan>
+    <tspan x="415" class="key">Programming</tspan>: <tspan>.................</tspan><tspan x="970" class="value">Python, C++, Javascript, R</tspan>
 </text>
 <text y="250" fill="#c9d1d9">
-    <tspan x="415" class="key">Interests</tspan>: <tspan>.........</tspan>
-    <tspan x="970" class="value">Machine Learning, Data Visualization</tspan>
+    <tspan x="415" class="key">Interests</tspan>: <tspan>.........</tspan><tspan x="970" class="value">Machine Learning, Data Visualization</tspan>
 </text>
 <text y="270" fill="#c9d1d9">
-    <tspan x="415" class="key">Frameworks</tspan>: <tspan>...............</tspan>
-    <tspan x="970" class="value">Pytorch, Spark, SVelte, D3.js</tspan>
+    <tspan x="415" class="key">Frameworks</tspan>: <tspan>...............</tspan><tspan x="970" class="value">Pytorch, Spark, SVelte, D3.js</tspan>
 </text>
 <text y="290" fill="#c9d1d9">
-    <tspan x="415" class="key">Languages</tspan>: <tspan>..........................</tspan>
-    <tspan x="970" class="value">English, Portuguese</tspan>
+    <tspan x="415" class="key">Languages</tspan>: <tspan>..........................</tspan><tspan x="970" class="value">English, Portuguese</tspan>
 </text>
 
 <text y="330" fill="#c9d1d9">
-    <tspan x="405" class="key">Hobbies</tspan>: <tspan>...............</tspan>
-    <tspan x="970" class="value">Astrophotography, Guitar, Drawing</tspan>
+    <tspan x="405" class="key">Hobbies</tspan>: <tspan>...............</tspan><tspan x="970" class="value">Astrophotography, Guitar, Drawing</tspan>
 </text>
 
 <text y="370" fill="#c9d1d9">
     <tspan x="405" class="title">Contact</tspan> ┄────────────────────────────────────────────────┄
 </text>
 <text y="390" fill="#c9d1d9">
-    <tspan x="415" class="key">Email</tspan>: <tspan>.......................</tspan>
-    <tspan x="970" class="value">vitor.nascimento@proton.me</tspan>
+    <tspan x="415" class="key">Email</tspan>: <tspan>.......................</tspan><tspan x="970" class="value">vitor.nascimento@proton.me</tspan>
 </text>
 
 <text y="410" fill="#c9d1d9">
-    <tspan x="415" class="key">LinkedIn</tspan>: <tspan>...........................</tspan>
-    <tspan x="970" class="value">vitor-do-nascimento</tspan>
+    <tspan x="415" class="key">LinkedIn</tspan>: <tspan>...........................</tspan><tspan x="970" class="value">vitor-do-nascimento</tspan>
 </text>
 
 
-<text y="450" fill="#c9d1d9">
+<!-- <text y="450" fill="#c9d1d9">
     <tspan x="405" class="title">Github Statistics</tspan> ┄──────────────────────────────────────┄
-</text>
+</text> -->
 
-<text y="470" fill="#c9d1d9">
-    <tspan x="415" class="key">Repos</tspan>: <tspan>..........</tspan>
-    <tspan x="770" class="value">30 {contributed: 2}</tspan> |
-</text>
-<text y="490" fill="#c9d1d9">
-    <tspan x="415" class="key">Commits</tspan>: <tspan>..........</tspan>
-    <tspan x="770" class="value">30</tspan> |
-</text>
+<!-- <text y="470" fill="#c9d1d9">
+    <tspan x="415" class="key">Repos</tspan>: <tspan>..........</tspan><tspan x="770" class="value">30 {contributed: 2}</tspan> |
+</text> -->
 
-<text y="470" fill="#c9d1d9">
-    <tspan x="770" class="key">Stars</tspan>: <tspan>..........</tspan>
-    <tspan x="970" class="value">30</tspan>
-</text>
+<!-- <text y="490" fill="#c9d1d9">
+    <tspan x="415" class="key">Commits</tspan>: <tspan>..........</tspan><tspan x="770" class="value">30</tspan> |
+</text> -->
 
-<text y="490" fill="#c9d1d9">
-    <tspan x="770" class="key">Followers</tspan>: <tspan>......</tspan>
-    <tspan x="970" class="value">30</tspan>
-</text>
+<!-- <text y="470" fill="#c9d1d9">
+    <tspan x="770" class="key">Stars</tspan>: <tspan>..........</tspan><tspan x="970" class="value">30</tspan>
+</text> -->
 
-<text y="510" fill="#c9d1d9">
-    <tspan x="415" class="key">Lines of code</tspan>: <tspan>..................................</tspan>
-    <tspan x="970" class="addColor">3++</tspan>,
-    <tspan x="970" class="delColor">3--</tspan>
-</text>
+<!-- <text y="490" fill="#c9d1d9">
+    <tspan x="770" class="key">Followers</tspan>: <tspan>......</tspan><tspan x="970" class="value">30</tspan>
+</text> -->
+
+<!-- <text y="510" fill="#c9d1d9">
+    <tspan x="415" class="key">Lines of code</tspan>: <tspan>.................................</tspan>
+</text> -->
 
 <text fill="#c9d1d9">
     <tspan x="15" y="550" fill="#b8bb26">vitor</tspan>@nascimento <tspan fill="#b8bb26">~</tspan>><tspan id="cursor"> █</tspan>
