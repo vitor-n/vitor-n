@@ -12,14 +12,6 @@
             -webkit-size-adjust: 109%;
             size-adjust: 109%;
         }
-        .key { fill: #70c0b1; font-weight: bold; }
-        .value { fill: #a1a1a1; }
-        .title { fill: #fe8019; font-weight: bold; }
-        .prompt-user { fill: #b8bb26; }
-        .dots { fill: #928374 }
-        .ascii { fill: #928374 }
-        .green { fill: #b8bb26 }
-        text, tspan { white-space: pre; fill: #c9d1d9; font-size: 16 }
         @keyframes blink {
             50% { opacity: 0; }
             100% { opacity: 1; }
@@ -27,9 +19,31 @@
         #cursor {
             animation: blink 1s step-end infinite;
         }
+
+        .background { fill: #fbf1c7; }
+        .key { fill: #076678; font-weight: bold; }
+        .value { fill: #3c3836; }
+        .title { fill: #d65d0e; font-weight: bold; }
+        .prompt-user { fill: #79740e; }
+        .dots { fill: #7c6f64 }
+        .ascii { fill: #7c6f64 }
+        .green { fill: #79740e }
+        text, tspan { white-space: pre; fill: #3c3836; font-size: 16 }
+
+        @media (prefers-color-scheme: dark) {
+            .background { fill: #282828; }
+            .key { fill: #83a598; font-weight: bold; }
+            .value { fill: #ebdbb2; }
+            .title { fill: #d65d0e; font-weight: bold; }
+            .prompt-user { fill: #252510ff; }
+            .dots { fill: #a89984 }
+            .ascii { fill: #a89984 }
+            .green { fill: #b8bb26 }
+            text, tspan { white-space: pre; fill: #ebdbb2; font-size: 16 }☻
+        }
     </style>
     
-<rect x="0" y="0" width="100%" height="100%" rx="25" fill="#1c1c1c" />
+<rect x="0" y="0" width="100%" height="100%" rx="25" class="background" />
 <text x="25" y="70" font-size="16" class="ascii">                .*##%%%###          </text>
 <text x="25" y="90" font-size="16" class="ascii">             #%%%@%%@%%%%%%%%       </text>
 <text x="25" y="110" font-size="16" class="ascii">           %#%%%*+++#%*=+=#%@%@#    </text>
@@ -72,6 +86,6 @@
 <text x="405" y="430" font-size="16"><tspan class="key"> LinkedIn:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">vitor-do-nascimento</tspan></text>
 <text x="405" y="470" font-size="16"><tspan class="title">Github Statistics</tspan></text>
 <text x="405" y="490" font-size="16"><tspan class="key"> Repos:</tspan><tspan class="dots"> ................................................ </tspan><tspan class="value">18</tspan></text>
-<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">619</tspan></text>
+<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">620</tspan></text>
 <text x="15" y="550" font-size="16"><tspan class="green">vitor</tspan><tspan>@</tspan><tspan>nascimento</tspan><tspan class="green"> ~</tspan><tspan>&gt;</tspan><tspan id="cursor"> █</tspan></text>
 </svg>
