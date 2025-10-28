@@ -35,7 +35,7 @@ style_block = \
             animation: blink 1s step-end infinite;
         }
 
-        .background { fill: #fbf1c7; }
+        .background { fill: #fffae1; }
         .key { fill: #076678; font-weight: bold; }
         .value { fill: #3c3836; }
         .title { fill: #d65d0e; font-weight: bold; }
