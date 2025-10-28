@@ -54,7 +54,7 @@ style_block = \
             .dots { fill: #a89984 }
             .ascii { fill: #a89984 }
             .green { fill: #b8bb26 }
-            text, tspan { white-space: pre; fill: #ebdbb2; font-size: 16 }☻
+            text, tspan { white-space: pre; fill: #ebdbb2; font-size: 16 }
         }
     </style>
     """
