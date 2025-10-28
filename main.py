@@ -27,20 +27,34 @@ style_block = \
             -webkit-size-adjust: 109%;
             size-adjust: 109%;
         }
-        .key { fill: #70c0b1; font-weight: bold; }
-        .value { fill: #a1a1a1; }
-        .title { fill: #fe8019; font-weight: bold; }
-        .prompt-user { fill: #b8bb26; }
-        .dots { fill: #928374 }
-        .ascii { fill: #928374 }
-        .green { fill: #b8bb26 }
-        text, tspan { white-space: pre; fill: #c9d1d9; font-size: 16 }
         @keyframes blink {
             50% { opacity: 0; }
             100% { opacity: 1; }
         }
         #cursor {
             animation: blink 1s step-end infinite;
+        }
+
+        .background { fill: #fbf1c7; }
+        .key { fill: #076678; font-weight: bold; }
+        .value { fill: #3c3836; }
+        .title { fill: #d65d0e; font-weight: bold; }
+        .prompt-user { fill: #79740e; }
+        .dots { fill: #7c6f64 }
+        .ascii { fill: #7c6f64 }
+        .green { fill: #79740e }
+        text, tspan { white-space: pre; fill: #3c3836; font-size: 16 }
+
+        @media (prefers-color-scheme: dark) {
+            .background { fill: #282828; }
+            .key { fill: #83a598; font-weight: bold; }
+            .value { fill: #ebdbb2; }
+            .title { fill: #d65d0e; font-weight: bold; }
+            .prompt-user { fill: #252510ff; }
+            .dots { fill: #a89984 }
+            .ascii { fill: #a89984 }
+            .green { fill: #b8bb26 }
+            text, tspan { white-space: pre; fill: #ebdbb2; font-size: 16 }☻
         }
     </style>
     """
@@ -54,7 +68,7 @@ if __name__ == "__main__":
 
     d = svg.Drawing(WIDTH, HEIGHT, font_family="ConsolasFallback, Consolas, monospace", font_size="16px")
     d.append(svg.Raw(style_block))
-    d.append(svg.Rectangle(0, 0, "100%", "100%", rx=25, fill="#1c1c1c"))
+    d.append(svg.Rectangle(0, 0, "100%", "100%", rx=25, class_="background"))
 
     cursor = Cursor((25, 70))
     icon = next(parsed_data)["icon"]
