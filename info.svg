@@ -20,7 +20,7 @@
             animation: blink 1s step-end infinite;
         }
 
-        .background { fill: #fbf1c7; }
+        .background { fill: #fffae1; }
         .key { fill: #076678; font-weight: bold; }
         .value { fill: #3c3836; }
         .title { fill: #d65d0e; font-weight: bold; }
@@ -86,6 +86,6 @@
 <text x="405" y="430" font-size="16"><tspan class="key"> LinkedIn:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">vitor-do-nascimento</tspan></text>
 <text x="405" y="470" font-size="16"><tspan class="title">Github Statistics</tspan></text>
 <text x="405" y="490" font-size="16"><tspan class="key"> Repos:</tspan><tspan class="dots"> ................................................ </tspan><tspan class="value">18</tspan></text>
-<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">620</tspan></text>
+<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">622</tspan></text>
 <text x="15" y="550" font-size="16"><tspan class="green">vitor</tspan><tspan>@</tspan><tspan>nascimento</tspan><tspan class="green"> ~</tspan><tspan>&gt;</tspan><tspan id="cursor"> █</tspan></text>
 </svg>
