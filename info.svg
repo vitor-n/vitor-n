@@ -71,7 +71,7 @@
 <text x="405" y="50" font-size="16">----------------</text>
 <text x="405" y="90" font-size="16"><tspan class="title">General Info</tspan></text>
 <text x="405" y="110" font-size="16"><tspan class="key"> OS:</tspan><tspan class="dots"> .................................. </tspan><tspan class="value">Arch Linux, Android</tspan></text>
-<text x="405" y="130" font-size="16"><tspan class="key"> Uptime:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">21 years, 3 months, 3 days</tspan></text>
+<text x="405" y="130" font-size="16"><tspan class="key"> Uptime:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">21 years, 3 months, 4 days</tspan></text>
 <text x="405" y="150" font-size="16"><tspan class="key"> Local:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">Rio de Janeiro, Brazil</tspan></text>
 <text x="405" y="170" font-size="16"><tspan class="key"> IDE:</tspan><tspan class="dots"> ........................................ </tspan><tspan class="value">NVIM v0.11.4</tspan></text>
 <text x="405" y="210" font-size="16"><tspan class="title">Knowledge</tspan></text>
