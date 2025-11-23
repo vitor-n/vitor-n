@@ -71,7 +71,7 @@
 <text x="405" y="50" font-size="16">----------------</text>
 <text x="405" y="90" font-size="16"><tspan class="title">General Info</tspan></text>
 <text x="405" y="110" font-size="16"><tspan class="key"> OS:</tspan><tspan class="dots"> .................................. </tspan><tspan class="value">Arch Linux, Android</tspan></text>
-<text x="405" y="130" font-size="16"><tspan class="key"> Uptime:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">21 years, 3 months, 8 days</tspan></text>
+<text x="405" y="130" font-size="16"><tspan class="key"> Uptime:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">21 years, 3 months, 9 days</tspan></text>
 <text x="405" y="150" font-size="16"><tspan class="key"> Local:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">Rio de Janeiro, Brazil</tspan></text>
 <text x="405" y="170" font-size="16"><tspan class="key"> IDE:</tspan><tspan class="dots"> ........................................ </tspan><tspan class="value">NVIM v0.11.4</tspan></text>
 <text x="405" y="210" font-size="16"><tspan class="title">Knowledge</tspan></text>
@@ -86,6 +86,6 @@
 <text x="405" y="430" font-size="16"><tspan class="key"> LinkedIn:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">vitor-do-nascimento</tspan></text>
 <text x="405" y="470" font-size="16"><tspan class="title">Github Statistics</tspan></text>
 <text x="405" y="490" font-size="16"><tspan class="key"> Repos:</tspan><tspan class="dots"> ................................................ </tspan><tspan class="value">18</tspan></text>
-<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">662</tspan></text>
+<text x="405" y="510" font-size="16"><tspan class="key"> Commits:</tspan><tspan class="dots"> ............................................. </tspan><tspan class="value">663</tspan></text>
 <text x="15" y="550" font-size="16"><tspan class="green">vitor</tspan><tspan>@</tspan><tspan>nascimento</tspan><tspan class="green"> ~</tspan><tspan>&gt;</tspan><tspan id="cursor"> █</tspan></text>
 </svg>
